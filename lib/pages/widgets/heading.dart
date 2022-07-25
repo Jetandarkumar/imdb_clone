@@ -58,3 +58,23 @@ class SubHeading extends StatelessWidget {
     );
   }
 }
+
+class SubTitleWid extends StatelessWidget {
+  const SubTitleWid({Key? key, required this.text}) : super(key: key);
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 29.0),
+      child: Text(
+        text,
+        style: const TextStyle(
+          color: Colors.white70,
+          fontSize: 12,
+          fontWeight: FontWeight.w300,
+        ),
+      ),
+    );
+  }
+}

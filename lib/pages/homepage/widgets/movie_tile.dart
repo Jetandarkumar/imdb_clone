@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class MovieTile extends StatelessWidget {
   const MovieTile({Key? key}) : super(key: key);
-  final double radius = 8.0;
+  final double radius = 12.0;
 
   @override
   Widget build(BuildContext context) {
@@ -66,7 +66,7 @@ class MovieTile extends StatelessWidget {
                           "Chaudhry and the sons ",
                           style: TextStyle(
                               color: Colors.white,
-                              fontSize: 11,
+                              fontSize: 13,
                               fontWeight: FontWeight.w300),
                         ),
                       ),
@@ -107,3 +107,21 @@ class MovieTile extends StatelessWidget {
     );
   }
 }
+  class jj extends StatefulWidget {
+    const jj({Key? key}): super(key: key);
+
+    @override
+    State<jj> createState() => _jjState();
+  }
+
+  class _jjState extends State<jj> {
+  @override
+    void dispose() {
+      // TODO: implement dispose
+      super.dispose();
+    }
+    @override
+    Widget build(BuildContext context) {
+      return Container();
+    }
+  }
